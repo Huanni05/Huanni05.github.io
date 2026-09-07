@@ -9,28 +9,7 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
+- **Huanni Zhang**, Matthias Welsch, William Schueller and Johannes Kirchmair*. [Trialblazer: A Chemistry-Focused Predictor of Toxicity Risks in Late-Stage Drug Development](https://doi.org/10.1016/j.ejmech.2025.118306). *European Journal of Medicinal Chemistry*. 2026, 302, 118306.
+- **Huanni Zhang**, Xiaoqing Wang, Runqian Song, Wen Ding, Fei Li and Li Ji*. [Emerging Metabolic Profiles of Sulfonamide Antibiotics by Cytochromes P450: A Computational–Experimental Synergy Study on Emerging Pollutants](https://doi.org/10.1021/acs.est.3c00071). *Environmental Science & Technology*. 2023, 57, 13, 5368–5379.
 
 
