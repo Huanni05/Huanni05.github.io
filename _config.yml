@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Huanni Zhang / Portfolio"
+title                    : "Huanni Zhang's homepage"
 title_separator          : "-"
 name                     : &name "Huanni Zhang"
 description              : &description "Huanni Zhang's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -56,7 +56,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  linkedin         : Huanni Zhang
+  linkedin         : #Huanni Zhang
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:

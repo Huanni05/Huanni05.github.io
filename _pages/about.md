@@ -1,20 +1,16 @@
 ---
 permalink: /
-title: "Huanni Zhang"
+title: "About me:"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-About me:
-<!-- 
-Write your bio here. You can use Markdown.
+Hello, I am Huanni Zhang, a fourth-year PhD candidate in [Comp3D team](https://comp3d.univie.ac.at/the-comp3d-team/) within the Division of Pharmaceutical Chemistry, Department of Pharmaceutical Sciences, at the University of Vienna. I am fourtunate to be supervised by [Johannes Kirchmair](https://comp3d.univie.ac.at/the-comp3d-team/johannes-kirchmair/). 
 
-## Research
-
-A short paragraph.
+Previously, I completed my master’s studies at the College of Environmental and Resource Sciences, Zhejiang University, where I worked with Prof. Li Ji.
 
 ## Contact
 
-your.email@example.com -->
+huannizhang@gmail.com
