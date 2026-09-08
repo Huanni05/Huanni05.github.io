@@ -144,35 +144,31 @@
 div.author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 64px;
-  height: 64px;
+  width: 36px;
+  height: 36px;
   overflow: hidden;
   border-radius: 50%;
 
   @include breakpoint($large) {
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     border: 1px solid var(--global-border-color);
   }
 }
 
 img.author__avatar {
-  width: 64px;
-  height: 64px;
+  width: 36px;
+  height: 36px;
   object-fit: cover;
   object-position: center 8%;
-  transform: scale(1.2);
-  transform-origin: center 10%;
   border-radius: 50%;
 
   @include breakpoint($large) {
-    width: 200px;
-    height: 200px;
-    max-width: 200px;
+    width: 175px;
+    height: 175px;
+    max-width: 175px;
     object-position: center 8%;
-    transform: scale(1.2);
-    transform-origin: center 10%;
   }
 }
 
