@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Conferences"
 permalink: /conferences/
 author_profile: true
