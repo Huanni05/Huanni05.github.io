@@ -161,18 +161,18 @@ img.author__avatar {
   width: 36px;
   height: 36px;
   object-fit: cover;
-  object-position: center 8%;
+  object-position: center top;
   transform: scale(1.55);
-  transform-origin: center 10%;
+  transform-origin: center top;
   border-radius: 50%;
 
   @include breakpoint($large) {
     width: 120px;
     height: 120px;
     max-width: 120px;
-    object-position: center 8%;
+    object-position: center top;
     transform: scale(1.55);
-    transform-origin: center 10%;
+    transform-origin: center top;
   }
 }
 
