@@ -6,8 +6,10 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">You can also find my papers on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
+
+<hr />
 
 <ul>
   <li><strong>Huanni Zhang</strong>, Matthias Welsch, William Schueller, and Johannes Kirchmair<sup>&#42;</sup>. <a href="https://doi.org/10.1016/j.ejmech.2025.118306">Trialblazer: A Chemistry-Focused Predictor of Toxicity Risks in Late-Stage Drug Development.</a> <i>European Journal of Medicinal Chemistry</i>. 2026, 302, 118306.</li>
